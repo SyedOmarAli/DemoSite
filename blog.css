@@ -188,14 +188,14 @@ p {
 }
 
 .quick-links-container>ul>li>.ql-count {
-    font-size: 1rem;
+    font-size: 17px;
     color: #7ab3e6;
     margin-right: 0.25rem;
 }
 
 .quick-links-container>ul>li>a {
     color: #000;
-    line-height: 1.5rem;
+    line-height: 20px;
     font-size: .98rem;
     font-weight: 500;
     letter-spacing: 2.3px;
@@ -210,8 +210,6 @@ p {
     height: 275px;
     width: 55%;
     display: inline-block;
-    border-left: dotted;
-    border-left-color: darkred;
 }
 
 .quick-links-container>ul {
@@ -224,15 +222,15 @@ p {
 
 .quick-links-container>ul>li {
     margin-top: 5px;
-    background-color: indianred;
+    /* background-color: indianred; */
     width: fit-content;
 }
 
 .quick-links-container>ul>li>.ql-count {
     font-size: 1rem;
-    color: blanchedalmond;
+    color: darkred;
     margin-right: 0.25rem;
-    background: brown;
+    /* background: brown; */
 }
 
 #pt-c {
