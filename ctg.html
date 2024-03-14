@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="global.css">
+    <title>Category</title>
+</head>
+
+<body>
+    <header class="header-default py-2">
+        <nav class="shell">
+            <div class="nav-default-mobile pt-4">
+                <ul class="text-start ms-5">
+                    <li class="menu-item">
+                        <a href="ctg.html" class="ctg-link">Beauty</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="ctg.html" class="ctg-link">Fashion</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="ctg.html" class="ctg-link">Lifestyle</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="ctg.html" class="ctg-link">What To Buy</a>
+                    </li>
+                    <li>
+                        <div class="serchBox1">
+                            <form action="/search" class="sb-search-form" method="get" accept-charset="utf-8">
+                                <input id="search" class="sb-search-input" placeholder="Search Here" type="text"
+                                    value="" name="q" />
+                                <button class="bg-transparent border-0" type="button" role="button">
+                                    <i class="fa-search fa-solid search-icon"></i>
+                                    <i class="fa-solid fa-xmark x-icon"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="index.html" title="PureWow">
+                        <img class="logo" src="purewoow.png" alt="TheLuxeBlog" width="216" height="40">
+                    </a>
+                </div>
+                <div class="header__nav">
+                    <div class="nav-default">
+                        <ul class="gap-4">
+                            <li class="menu-item">
+                                <a href="ctg.html" class="ctg-link">Beauty</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="ctg.html" class="ctg-link">Fashion</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="ctg.html" class="ctg-link">Lifestyle</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="ctg.html" class="ctg-link">What To Buy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="serchBox">
+                    <form action="/search" class="sb-search-form" method="get" accept-charset="utf-8">
+                        <input class="sb-search-input rounded-end" placeholder="Search Here" type="search" value=""
+                            name="q" id="search">
+
+                        <style>
+                            header .serchBox .search-btn .search-icon {
+                                display: inline;
+                            }
+
+                            header .serchBox .search-btn .close-icon {
+                                display: none;
+                            }
+
+                            header .serchBox .search-btn.open .search-icon {
+                                display: none;
+                            }
+
+                            header .serchBox .search-btn.open .close-icon {
+                                display: inline;
+                            }
+                        </style>
+
+                        <button class="bg-transparent border-0 search-btn" type="button" role="button">
+                            <i class="search-icon fa-search fa-solid"></i>
+                            <i class="close-icon fa-solid fa-xmark"></i>
+                        </button>
+                    </form>
+                </div>
+
+
+
+                <button class="btn-hamb">
+                    <svg width="100%" height="100%" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+                        xmlns:serif="http://www.serif.com/"
+                        style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:1.5;">
+                        <path class="c-line c-line1" d="M0.057,24.064L51.915,24.173L51.917,7.786L7.818,52.244" <path
+                            class="c-line c-line2" d="M-0.032,35.821L51.906,35.821L51.907,52.227L7.856,7.812"
+                            style="fill:none;stroke:black;stroke-width:2px;" />
+                    </svg>
+                </button>
+
+            </div>
+        </nav>
+    </header>
+    <div class="category-wrapper wellness"><a href="/wellness" class="category-link">
+            <h2 class="category-name beauty arrow">Beauty <span class="icon-triangle-arrow category-arrow"></span></h2>
+        </a>
+    </div>
+    <div class="category-hr"></div>
+    <div class="article-cards">
+        <a href="/beauty/supergoop-protectint-launch" class="article-card big-card">
+            <div class="card-img-container">
+                <img class="card-img" src="purewoow.png" alt="purewoow">
+                <span class="img-credit">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Supergoop</font>
+                    </font>
+                </span>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-details">
+                    <div class="card-author ">
+                        <div class="card-author-category">beauty</div>
+                        <div class="card-author-name">by <!-- -->Jael Rucker</div>
+                    </div>
+                    <div class="divider"></div>
+                    <h3 class="card-headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                </div>
+            </div>
+        </a><a href="/beauty/secret-vs-native-whole-body-deodorant" class="article-card big-card">
+            <div class="card-img-container">
+                <img class="card-img" src="purewoow.png" alt="purewoow">
+                <span class="img-credit">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Supergoop</font>
+                    </font>
+                </span>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-details">
+                    <div class="card-author ">
+                        <div class="card-author-category">beauty</div>
+                        <div class="card-author-name">by <!-- -->Chelsea Candelario</div>
+                    </div>
+                    <div class="divider"></div>
+                    <h3 class="card-headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                </div>
+            </div>
+        </a><a href="/beauty/secret-vs-native-whole-body-deodorant" class="article-card big-card">
+            <div class="card-img-container">
+                <img class="card-img" src="purewoow.png" alt="purewoow">
+                <span class="img-credit">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Supergoop</font>
+                    </font>
+                </span>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-details">
+                    <div class="card-author ">
+                        <div class="card-author-category">beauty</div>
+                        <div class="card-author-name">by <!-- -->Chelsea Candelario</div>
+                    </div>
+                    <div class="divider"></div>
+                    <h3 class="card-headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                </div>
+            </div>
+        </a><a href="/beauty/secret-vs-native-whole-body-deodorant" class="article-card big-card">
+            <div class="card-img-container">
+                <img class="card-img" src="purewoow.png" alt="purewoow">
+                <span class="img-credit">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Supergoop</font>
+                    </font>
+                </span>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-details">
+                    <div class="card-author ">
+                        <div class="card-author-category">beauty</div>
+                        <div class="card-author-name">by <!-- -->Chelsea Candelario</div>
+                    </div>
+                    <div class="divider"></div>
+                    <h3 class="card-headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                </div>
+            </div>
+        </a><a href="/beauty/secret-vs-native-whole-body-deodorant" class="article-card big-card">
+            <div class="card-img-container">
+                <img class="card-img" src="purewoow.png" alt="purewoow">
+                <span class="img-credit">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Supergoop</font>
+                    </font>
+                </span>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-details">
+                    <div class="card-author ">
+                        <div class="card-author-category">beauty</div>
+                        <div class="card-author-name">by <!-- -->Chelsea Candelario</div>
+                    </div>
+                    <div class="divider"></div>
+                    <h3 class="card-headline">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3>
+                </div>
+            </div>
+        </a><a href="/beauty/secret-vs-native-whole-body-deodorant" class="article-card big-card">
+            <div class="card-img-container">
+                <img class="card-img" src="purewoow.png" alt="purewoow">
+                <span class="img-credit">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Supergoop</font>
+                    </font>
+                </span>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-details">
+                    <div class="card-author ">
+                        <div class="card-author-category">beauty</div>
+                        <div class="card-author-name">by <!-- -->Chelsea Candelario</div>
+                    </div>
+                    <div class="divider"></div>
+                    <h3 class="card-headline">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h3>
+                </div>
+            </div>
+            <!-- </a> -->
+    </div>
+</body>

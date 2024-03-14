@@ -1,0 +1,263 @@
+.roboto-condensed- <.text-start> {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.josefin-sans- <.hh-1> {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#section-1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 30px;
+    border-bottom: groove;
+    width: fit-content;
+    border-bottom-color: darkred;
+}
+
+p {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.post-content>h3 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    border-bottom: groove;
+    width: fit-content;
+    border-bottom-color: darkred;
+}
+
+#section-7 {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    border-bottom: groove;
+    width: fit-content;
+    border-bottom-color: darkred;
+}
+
+.social-share-buttons .social-sidebar.eop {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    top: 0px;
+    gap: 15px;
+}
+
+.social-share-buttons .social-sidebar {
+    /* display: flex;
+    flex-direction: column; */
+    left: 8px;
+    /* margin: 0; */
+    position: relative;
+    transition: top 1s ease 0s;
+    z-index: 499;
+    /* top: 230px; */
+}
+
+.social-share-buttons .social-sidebar .pinterest {
+    background-image: url(pinterest.png);
+}
+
+.social-share-buttons .social-sidebar .facebook {
+    background-image: url(fb.png);
+}
+
+.social-share-buttons .social-sidebar .twitter {
+    background-image: url(twitter.png);
+}
+
+.social-share-buttons .social-sidebar .instagram {
+    background-image: url(insta.png);
+}
+
+.hr-div {
+    width: 50%;
+    height: 2px;
+    border: none;
+    background-color: darkred;
+    margin: 0;
+    display: inline-block;
+}
+
+#title1-1 {
+    position: relative;
+    margin-bottom: 35px;
+    margin-top: 80px;
+    z-index: 0;
+    text-align: center;
+    font-family: Circular Std;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+#title1-1:before {
+    position: absolute;
+    top: -50%;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+    content: "";
+    background-color: darkred;
+}
+.mhead-1 {
+    position: relative;
+    display: inline-block;
+    padding: 7px 20px;
+    background-color: #fff;
+    z-index: 1;
+    vertical-align: middle;
+    margin-top: -35px;
+}
+
+.social-share-buttons .social-sidebar .social-share-unit {
+    cursor: pointer;
+    image-rendering: auto;
+    background-size: 36px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    width: 36px;
+    height: 36px;
+    transition: transform .2s;
+}
+
+.text-start {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.quick-links-container>ul {
+    list-style: none;
+    padding-inline-start: 0;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.quick-links-container>ul>li {
+    margin-top: 5px;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.quick-links-container>ul>li>.ql-count {
+    font-size: 1rem;
+    color: #7ab3e6;
+    margin-right: 0.25rem;
+}
+
+.quick-links-container>ul>li>a {
+    color: #000;
+    line-height: 1.5rem;
+    font-size: .98rem;
+    font-weight: 500;
+    letter-spacing: 2.3px;
+    text-decoration: none;
+    background-size: 2px 2px;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    background-image: linear-gradient(var(--primary-color), #569fe0);
+}
+
+.quick-links-container {
+    height: 275px;
+    width: 55%;
+    display: inline-block;
+    border-left: dotted;
+    border-left-color: darkred;
+}
+
+.quick-links-container>ul {
+    list-style: none;
+    padding-inline-start: 15px;
+    display: block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.quick-links-container>ul>li {
+    margin-top: 5px;
+    background-color: indianred;
+    width: fit-content;
+}
+
+.quick-links-container>ul>li>.ql-count {
+    font-size: 1rem;
+    color: blanchedalmond;
+    margin-right: 0.25rem;
+    background: brown;
+}
+
+#pt-c {
+    width: 70%;
+    display: inline-block;
+    text-align: justify;
+}
+
+.cat__link {
+    text-decoration: none;
+    color: darkred;
+}
+
+.post-author-link {
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+.widget-title {
+    border-bottom-style: dotted;
+    border-bottom-color: darkred;
+    font-family: 'Roboto Condensed';
+    text-transform: uppercase;
+    color: darkred;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 900;
+}

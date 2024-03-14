@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/858ef96f64.js" crossorigin="anonymous"></script>
+    <title>Blog</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="header header-default py-2">
+            <nav class="shell">
+                <div class="nav-default-mobile pt-4">
+                    <ul class="text-start ms-5">
+                        <li class="menu-item">
+                            <a href="ctg.html" class="ctg-link">Beauty</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="ctg.html" class="ctg-link">Fashion</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="ctg.html" class="ctg-link">Lifestyle</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="ctg.html" class="ctg-link">What To Buy</a>
+                        </li>
+                        <li>
+                            <div class="serchBox1">
+                                <form action="/search" class="sb-search-form" method="get" accept-charset="utf-8">
+                                    <input id="search" class="sb-search-input" placeholder="Search Here" type="text"
+                                        value="" name="q" />
+                                    <button class="bg-transparent border-0" type="button" role="button">
+                                        <i class="fa-search fa-solid search-icon"></i>
+                                        <i class="fa-solid fa-xmark x-icon"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <a href="index.html" title="PureWow">
+                            <!-- <img class="logo" src="purewoow.png" alt="TheLuxeBlog" width="216" height="40"> -->
+                        </a>
+                    </div>
+                    <div class="header__nav">
+                        <div class="nav-default">
+                            <ul class="gap-4">
+                                <li class="menu-item">
+                                    <a href="ctg.html" class="ctg-link">Beauty</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="ctg.html" class="ctg-link">Fashion</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="ctg.html" class="ctg-link">Lifestyle</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="ctg.html" class="ctg-link">What To Buy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="serchBox">
+                        <form action="/search" class="sb-search-form" method="get" accept-charset="utf-8">
+                            <input class="sb-search-input rounded-end" placeholder="Search Here" type="search" value=""
+                                name="q" id="search">
+
+                            <style>
+                                header .serchBox .search-btn .search-icon {
+                                    display: inline;
+                                }
+
+                                header .serchBox .search-btn .close-icon {
+                                    display: none;
+                                }
+
+                                header .serchBox .search-btn.open .search-icon {
+                                    display: none;
+                                }
+
+                                header .serchBox .search-btn.open .close-icon {
+                                    display: inline;
+                                }
+                            </style>
+
+                            <button class="bg-transparent border-0 search-btn" type="button" role="button">
+                                <i class="search-icon fa-search fa-solid"></i>
+                                <i class="close-icon fa-solid fa-xmark"></i>
+                            </button>
+                        </form>
+                    </div>
+
+
+
+                    <button class="btn-hamb">
+                        <svg width="100%" height="100%" viewBox="0 0 60 60" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:1.5;">
+                            <path class="c-line c-line1" d="M0.057,24.064L51.915,24.173L51.917,7.786L7.818,52.244" <path
+                                class="c-line c-line2" d="M-0.032,35.821L51.906,35.821L51.907,52.227L7.856,7.812"
+                                style="fill:none;stroke:black;stroke-width:2px;" />
+                        </svg>
+                    </button>
+
+                </div>
+            </nav>
+        </div>
+
+
+        <div class="category"><a href="ctg.html" class="cat-link wellness ">wellness</a>
+            <h1 class="entry-title single-blog-post-title mb-3 text-start">Most Comfy Hoodies Your Dad Will Love To
+                Dress Up
+            </h1>
+            <div class="view-like position-static">
+
+                <!-- category start -->
+
+                <!-- category end -->
+                <!-- <span class="sep px-2" id="sepa">|</span> -->
+                <!-- date start -->
+                <span class="like-no">
+                    <span class="cat">
+                        <a href="https://theluxeblog.com/category/what-to-buy" class="cat__link">
+                            What To Buy
+                        </a>
+                    </span>
+                </span>
+                <!-- date end -->
+                <span class="sep px-2" id="sepa">|</span>
+                <!-- author start -->
+                <span class="like-no">By: <a href="/author/" class="post-author-link">William Carter</a>
+                </span>
+                <!-- author end -->
+            </div>
+
+        </div>
+        <div class="module">
+            <div class="hero-image-container below">
+                <div class="image-wrapper">
+                    <div class="img-container-hero-image">
+                        <img class="hero-image" src="purewoow.png" alt="purewoow">
+                    </div>
+
+                    <div class="widget widget_quick_links quick-links-container mb-4">
+                        <h3 class="widget-title" style="font-weight: 600;">In This Article</h3>
+                        <!-- /.widget-title -->
+                        <ul class="widget-details row">
+                            <li class="col-md-6 d-flex mb-2">
+                                <span class="ql-count me-2">01</span>
+                                <a href="#section-1">5 Best Comfy Hoodies For Your Dad&nbsp;</a>
+                            </li>
+                            <li class="col-md-6 d-flex mb-2">
+                                <span class="ql-count me-2">02</span>
+                                <a href="#section-2">Luning Hoodie</a>
+                            </li>
+                            <li class="col-md-6 d-flex mb-2">
+                                <span class="ql-count me-2">03</span>
+                                <a href="#section-3">Underhill Hoodie</a>
+                            </li>
+                            <li class="col-md-6 d-flex mb-2">
+                                <span class="ql-count me-2">04</span>
+                                <a href="#section-4">Brixton Zip Hoodie</a>
+                            </li>
+                            <li class="col-md-6 d-flex mb-2">
+                                <span class="ql-count me-2">05</span>
+                                <a href="#section-5">Cortina Hoodie</a>
+                            </li>
+                            <li class="col-md-6 d-flex mb-2">
+                                <span class="ql-count me-2">06</span>
+                                <a href="#section-6">The Barakett Hoodie Tee</a>
+                            </li>
+                            <li class="col-md-6 d-flex mb-2">
+                                <span class="ql-count me-2">07</span>
+                                <a href="#section-7">Conclusion</a>
+                            </li>
+                        </ul>
+                        <!-- /.widget-details -->
+                    </div>
+                </div>
+                <div class="image-text-wrapper"></div>
+            </div>
+        </div>
+        <div class="module">
+            <div class="body-text standard">
+                <p>As the temperature drops, we are always in search of comfortable and cozy clothing to keep us warm.
+                    <a href="https://theluxeblog.com/best-quince-cashmere-sweaters" target="_blank">Sweaters</a>, <a
+                        href="https://theluxeblog.com/best-faux-leather-jackets" target="_blank">jackets</a>, and
+                    hoodies are some of the most popular options for winter.
+                </p>
+                <p>If you're searching for the perfect gift for your dad, you can never go wrong with a soft and warm
+                    hoodie. It's a versatile garment that can be worn for any occasion, whether it's a casual day out or
+                    a relaxing evening at home. <a href="https://shrsl.com/4exq5" target="_blank"
+                        title="Click to open in a new window" rel="nofollow">Robert Barakett</a> is a brand that offers
+                    some of the most comfortable and stylish hoodies on the market, so you can be sure that you're
+                    getting the best for your dad.&nbsp;</p>
+
+                <div class="related-story-link-container">
+                    <div class="related-header">
+                        <strong>RELATED</strong>
+                        <hr>
+                    </div>
+                    <p class="related-story-link"><a href="blog.html" target="_blank"
+                            data-rich-text-format-boundary="1">What Happens to Your Brain During a Breakup? We
+                            Asked a Neuropsychologist</a></p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="module">
+
+            <div class="post-content" id="pt-c">
+
+                <h2 id="section-1" class="hh-1">5 Best Comfy Hoodies For Your Dad&nbsp;</h2>
+
+                <p>Give your dad the gift of comfort and warmth this winter with a hoodie from Robert Barakett.</p>
+
+                <h3 id="section-2">Luning Hoodie</h3>
+
+                <p style="text-align: center;"><img alt="Luning Hoodie" src="/storage/photos/2/02-2024/hoodies2.PNG">
+                </p>
+
+                <p style="text-align: center;"><a class="btn__shop btn btn-dark text-white text-decoration-none"
+                        href="https://shrsl.com/4exq5" target="_blank" title="Click to open in a new window"
+                        rel="nofollow">Shop</a></p>
+
+                <p>This hoodie is available in cream and black and is made with a soft, comfortable fabric that will
+                    keep your dad warm and cozy. With its classic design and comfortable fit, the Luning Hoodie is sure
+                    to become one of your dad's favorite pieces of clothing.</p>
+
+                <h3 id="section-3">Underhill Hoodie</h3>
+
+                <p style="text-align: center;"><img alt="Underhill Hoodie" src="/storage/photos/2/02-2024/hoodies3.PNG">
+                </p>
+
+                <p style="text-align: center;"><a class="btn__shop btn btn-dark text-white text-decoration-none"
+                        href="https://shrsl.com/4exq5" target="_blank" title="Click to open in a new window"
+                        rel="nofollow">Shop</a></p>
+
+                <p>If your dad is a fan of darker colors, this hoodie might be the perfect choice. The Underhill Hoodie
+                    is only available in dark green, but its deep color and comfortable fit make it a great addition to
+                    any wardrobe.</p>
+
+                <h3 id="section-4">Brixton Zip Hoodie</h3>
+
+                <p style="text-align: center;"><img alt="Brixton Zip Hoodie"
+                        src="/storage/photos/2/02-2024/hoodies4.PNG"></p>
+
+                <p style="text-align: center;"><a class="btn__shop btn btn-dark text-white text-decoration-none"
+                        href="https://shrsl.com/4exq5" target="_blank" title="Click to open in a new window"
+                        rel="nofollow">Shop</a></p>
+
+                <p>This hoodie is only available in navy color, but its stylish design and comfortable fit make it a
+                    great choice for any dad who wants to look and feel great.</p>
+
+                <h3 id="section-5">Cortina Hoodie</h3>
+
+                <p style="text-align: center;"><img alt="Cortina Hoodie" src="/storage/photos/2/02-2024/hoodies5.PNG">
+                </p>
+
+                <p style="text-align: center;"><a class="btn__shop btn btn-dark text-white text-decoration-none"
+                        href="https://shrsl.com/4exq5" target="_blank" title="Click to open in a new window"
+                        rel="nofollow">Shop</a></p>
+
+                <p>This hoodie is available in a range of colors, including eggplant, black, port, deep green, blue
+                    night, and soldier green. With its soft, comfortable fabric and stylish design, the Cortina Hoodie
+                    is sure to become one of your dad's go-to pieces of clothing.</p>
+
+                <h3 id="section-6">The Barakett Hoodie Tee</h3>
+
+                <p style="text-align: center;"><img alt="The Barakett Hoodie Tee"
+                        src="/storage/photos/2/02-2024/hoodies6.PNG"></p>
+
+                <p style="text-align: center;"><a class="btn__shop btn btn-dark text-white text-decoration-none"
+                        href="https://shrsl.com/4exq5" target="_blank" title="Click to open in a new window"
+                        rel="nofollow">Shop</a></p>
+
+                <p>This hoodie is available in black and cannon color and is made with a soft, comfortable fabric that
+                    will keep your dad feeling cozy all day long. With its classic design and comfortable fit, The
+                    Barakett Hoodie Tee is a great choice for any dad who wants to look and feel great.&nbsp;</p>
+
+                <h2 id="section-7">Conclusion</h2>
+
+                <p>In conclusion, if you're looking for a comfortable and stylish gift for your dad, a hoodie from
+                    Robert Barakett is the way to go. Each hoodie is made with high-quality materials and designed to
+                    keep your dad feeling cozy and comfortable all day long. So why wait? Head over to Robert Barakett
+                    today and find the perfect hoodie for your dad!</p>
+
+            </div>
+
+        </div>
+        <!-- <div class="author-content-wrapper"> -->
+        <hr class="hr-div">
+        <div class="social-share-buttons">
+            <div class="social-sidebar eop">
+                <button alt="pinterest share image" aria-label="pinterest"
+                    class="react-share__ShareButton social-share-unit pinterest"
+                    style="background-color: transparent; border: none; padding: 0px; font: inherit; color: inherit; cursor: pointer;">
+                </button>
+                <button alt="Best forms of magnesium: supplements in pill form" aria-label="facebook"
+                    class="react-share__ShareButton social-share-unit facebook"
+                    style="background-color: transparent; border: none; padding: 0px; font: inherit; color: inherit; cursor: pointer;">
+                </button>
+                <button alt="Best forms of magnesium: supplements in pill form" aria-label="twitter"
+                    class="react-share__ShareButton social-share-unit twitter"
+                    style="background-color: transparent; border: none; padding: 0px; font: inherit; color: inherit; cursor: pointer;">
+                </button>
+                <button alt="Best forms of magnesium: supplements in pill form" aria-label="twitter"
+                    class="react-share__ShareButton social-share-unit instagram"
+                    style="background-color: transparent; border: none; padding: 0px; font: inherit; color: inherit; cursor: pointer;">
+                </button>
+            </div>
+            <!-- <hr class="hr-div"> -->
+            <!-- </div> -->
+            <!-- </div> -->
+            <div class="page-end"></div>
+        </div>
+        <div class="more-articles">
+            <h2 class="section__title" id="title1-1">
+                <span class="mhead-1">
+                    <span class="nhead">More stories</span>
+                </span>
+            </h2>
+        </div>
+        <div class="recirculation">
+            <div class="article-cards">
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic,
+                                rerum?
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti,
+                                reiciendis.</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti,
+                                reiciendis.</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti,
+                                reiciendis.</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti,
+                                reiciendis.</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti,
+                                reiciendis.</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti,
+                                reiciendis.</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti,
+                                reiciendis.</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti,
+                                reiciendis.</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti,
+                                reiciendis.</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti,
+                                reiciendis.</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="blog.html" class="article-card big-card">
+                    <div class="card-img-container">
+                        <img class="card-img" src="purewoow.png" alt="purewoow">
+                    </div>
+                    <div class="card-wrapper">
+                        <div class="card-details">
+                            <div class="card-author ">
+                                <div class="card-author-category">wellness</div>
+                                <div class="card-author-dot"></div>
+                                <div class="card-author-name">by Dana Dickey</div>
+                            </div>
+                            <div class="divider"></div>
+                            <div class="card-headline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                Corrupti,
+                                reiciendis.</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="view-more">View More</div>
+        </div>
+    </div>
+</body>
+
+</html>
