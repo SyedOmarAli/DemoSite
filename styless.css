@@ -2222,8 +2222,8 @@ p:empty {
 
 .body-text a,
 .amazon-body-text a {
-    color: #000;
-    text-decoration-color: #f27676;
+    color: darkred;
+    text-decoration-color: darkred;
     text-decoration-thickness: 2px;
     text-underline-offset: 2px;
     text-decoration-skip-ink: none
