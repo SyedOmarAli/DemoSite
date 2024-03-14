@@ -94,6 +94,9 @@ h2.sub-head.miniheader {
 .hero-image-container .image-wrapper .img-credit-container {
     padding-left: 0
 }
+a:hover {
+    color: darkred;
+}
 
 @media (min-width: 991px) {
     .hero-image-container .image-wrapper .img-credit-container {

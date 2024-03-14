@@ -205,7 +205,9 @@ p {
     background-position: 0 100%;
     background-image: linear-gradient(var(--primary-color), #569fe0);
 }
-
+.dk-red:hover {
+    color: darkred;
+}
 .quick-links-container {
     height: 275px;
     width: 55%;
