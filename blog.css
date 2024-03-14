@@ -207,6 +207,7 @@ p {
 }
 .dk-red:hover {
     color: darkred;
+    text-decoration: none;
 }
 .quick-links-container {
     height: 275px;
