@@ -41,7 +41,7 @@ p {
     border-bottom-color: darkred;
 }
 
-#section-2 {
+/* #section-2 {
     font-family: "Ysabeau", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -54,9 +54,9 @@ p {
     font-weight: 600;
     font-size: 25px;
     font-style: normal;
-}
+} */
 
-#section-4 {
+#section-1,#section-2,#section-3,#section-4,#section-5,#section-6 {
     font-family: "Edu TAS Beginner", cursive;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -64,7 +64,7 @@ p {
     font-style: normal;
 }
 
-#section-5 {
+/* #section-5 {
     font-family: "Aboreto", system-ui;
     font-weight: 600;
     font-size: 25px;
@@ -82,18 +82,19 @@ p {
     font-family: "Mooli", sans-serif;
     font-weight: 600;
     font-style: normal;
-}
+} */
 
-#section-7 {
-    /* font-family: "Josefin Sans", sans-serif;
+#section-7 { 
+    font-family: "Edu TAS Beginner", cursive;
     font-optical-sizing: auto;
     font-weight: 600;
-    font-style: normal; */
+    font-size: 25px;
+    font-style: normal;
     font-size: 25px;
     border-bottom: groove;
     width: fit-content;
     border-bottom-color: darkred;
-}
+} 
 
 .social-share-buttons .social-sidebar.eop {
     display: flex;
