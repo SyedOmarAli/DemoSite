@@ -5,6 +5,7 @@ html {
 body {
     padding-top: 70px;
 }
+
 .sub-head {
     color: #000;
     font-family: 'ivypresto-display';
@@ -40,6 +41,33 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+@media only screen and (max-width: 575px) {
+    body {
+        font-size: calc(13px + 0.35vw);
+    }
+
+    .view-like {
+        display: none !important;
+    }
+
+    .post-container article .single-blog-post-title {
+        font-size: 21px;
+        font-weight: bold;
+    }
+
+    .serchBox input {
+        display: none;
+    }
+
+    .serchBox1 input {
+        border: 1px solid #595959;
+        font-size: 15px;
+        border-radius: 20px;
+        padding: 5px 10px;
+    }
+}
+
+
 .op-header {
     width: 96%;
     display: flex;
@@ -68,6 +96,7 @@ body {
     text-transform: uppercase;
     margin-bottom: -45px
 }
+
 h2.sub-head.miniheader {
     font-family: "poppins";
     font-weight: bold;
@@ -80,6 +109,7 @@ h2.sub-head.miniheader {
     color: #FC8080;
     margin-bottom: -25px
 }
+
 .full-width-image-container .image-wrapper {
     position: relative
 }
@@ -98,6 +128,7 @@ h2.sub-head.miniheader {
     padding-top: 5px;
     -webkit-font-smoothing: antialiased
 }
+
 .hero-image-container .image-wrapper .header-body a {
     color: #B5B5B5;
     text-decoration-color: #f27676;
@@ -125,6 +156,7 @@ h2.sub-head.miniheader {
 .hero-image-container .image-wrapper .img-credit-container {
     padding-left: 0
 }
+
 a:hover {
     color: darkred;
     text-decoration: none;
@@ -3873,6 +3905,7 @@ figure.wp-block-pullquote blockquote cite {
     opacity: .01;
     transition: opacity .25s ease
 }
+
 article,
 aside,
 details,
@@ -3921,7 +3954,7 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
-} 
+}
 
 .article-cards {
     display: flex;
@@ -5135,6 +5168,7 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
     object-fit: cover;
     transition: transform .4s ease
 }
+
 @media (min-width: 991px) {
     .our-picks .story-text.fs {
         border-top: none;
@@ -5398,6 +5432,7 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
         margin-bottom: 20px
     }
 }
+
 .header {
     position: fixed !important;
     top: 0;
@@ -5409,6 +5444,7 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
     border-bottom: 1px solid darkred;
     /* overflow: hidden */
 }
+
 .header .brand-logo .brand-logo-mark {
     width: 48px
 }
@@ -5428,14 +5464,17 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
     align-items: center;
     height: 100%
 }
+
 .header .header-content.header-content-start {
     flex-basis: 20%
 }
+
 .header .header-content.header-content-mid {
     margin-left: 30px;
     margin-right: 45px;
     flex-basis: 55%
 }
+
 .header .cat-links {
     width: 100%;
     text-transform: uppercase;
@@ -5457,6 +5496,7 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
     letter-spacing: 2.2px;
     line-height: 17px
 }
+
 .header-fixed {
     position: absolute;
     top: 0;
@@ -5466,6 +5506,3 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
     height: 100%;
     background: #fff
 }
-
-
-
