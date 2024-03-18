@@ -12,16 +12,6 @@
     font-style: normal;
 }
 
-#section-1 {
-    font-family: "Agdasima", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    border-bottom: groove;
-    width: fit-content;
-    border-bottom-color: darkred;
-}
-
 p {
     font-family: "Rasa", serif;
     font-optical-sizing: auto;
@@ -36,9 +26,9 @@ p {
     font-weight: 600;
     font-style: normal;
     font-size: 25px; */
-    border-bottom: groove;
+    /* border-bottom: groove; */
     width: fit-content;
-    border-bottom-color: darkred;
+    /* border-bottom-color: darkred; */
 }
 
 /* #section-2 {
@@ -55,8 +45,15 @@ p {
     font-size: 25px;
     font-style: normal;
 } */
+.hh-1 {
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 35px;
+    font-style: normal;
+}
 
-#section-1,#section-2,#section-3,#section-4,#section-5,#section-6 {
+#section-2,#section-3,#section-4,#section-5,#section-6 {
     font-family: "Rasa", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -91,9 +88,9 @@ p {
     font-size: 25px;
     font-style: normal;
     font-size: 25px;
-    border-bottom: groove;
+    /* border-bottom: groove; */
     width: fit-content;
-    border-bottom-color: darkred;
+    /* border-bottom-color: darkred; */
 } 
 
 .social-share-buttons .social-sidebar.eop {
@@ -193,7 +190,7 @@ p {
 }
 
 .text-start {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Rasa", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
