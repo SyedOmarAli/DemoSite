@@ -2335,12 +2335,12 @@ p:empty {
     display: none
 }
 
-.body-text.standard,
-.amazon-body-text.standard {
+.body-text.standard {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: left;
+    padding-right: 340px;
 }
 
 .module:has(.body-text), .module:has(.amazon-body-text) {
