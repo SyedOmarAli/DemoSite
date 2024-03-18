@@ -284,7 +284,9 @@ header .serchBox .search-btn .close-icon {
     .header-default .header__nav {
         display: none;
     }
-
+    .serchBox {
+        display: none;
+    }
 
     .nav-default-mobile {
         display: block;
