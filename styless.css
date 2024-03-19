@@ -8,7 +8,8 @@ body {
 
 .sub-head {
     color: #000;
-    font-family: 'ivypresto-display';
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-size: 21px;
     font-weight: 400;
     letter-spacing: 3.25px;
@@ -30,15 +31,19 @@ body {
     text-transform: uppercase;
     width: fit-content;
     font-family: "ivypresto-display";
-    font-size: 28px;
+    font-size: 35px;
     font-style: italic;
-    font-weight: 900;
+    font-weight: 300;
     letter-spacing: normal;
     line-height: 35px;
     margin-right: 10px;
     flex-grow: 1;
     text-align: center;
     -webkit-font-smoothing: antialiased;
+}
+
+a:hover {
+    fill: darkred;
 }
 
 @media only screen and (max-width: 575px) {
@@ -90,7 +95,8 @@ body {
 
 .sub-head.nav-head {
     color: #FC8080;
-    font-family: "poppins";
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-weight: bold;
     font-size: 29px;
     text-transform: uppercase;
@@ -98,7 +104,8 @@ body {
 }
 
 h2.sub-head.miniheader {
-    font-family: "poppins";
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-weight: bold;
     font-size: 29px;
     line-height: 34px;
@@ -115,7 +122,8 @@ h2.sub-head.miniheader {
 }
 
 .full-width-image-container .header-body {
-    font-family: "ivypresto-display";
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-weight: 100;
     font-style: italic;
     font-size: 22px;
@@ -170,7 +178,8 @@ a:hover {
 }
 
 .hero-image-container .image-text-wrapper .sub-head {
-    font-family: "poppins";
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-weight: bold;
     font-size: 15px;
     line-height: 18px;
@@ -228,7 +237,8 @@ a:hover {
 
 .hero-image-container .hero-overlay-txt {
     position: absolute;
-    font-family: 'ivypresto-display';
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     letter-spacing: 0;
     text-align: center;
@@ -648,7 +658,8 @@ a:hover {
 }
 
 .large-image-container .header-body {
-    font-family: "ivypresto-display";
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-weight: 100;
     font-style: italic;
     font-size: 22px;
@@ -717,6 +728,21 @@ a:hover {
     padding-bottom: 0;
     color: #000000;
     -webkit-font-smoothing: antialiased
+}
+
+#b-text {
+    font-size: 20px;
+    text-align: justify;
+    height: 120px;
+    width: 100%;
+    text-align: justify;
+}
+
+.button-text {
+    font-family: 'Rasa';
+    text-transform: uppercase;
+    color: darkred;
+    font-size: 25px;
 }
 
 @media (min-width: 991px) {
@@ -2355,7 +2381,9 @@ p:empty {
 .amazon-body-text.standard h3,
 .amazon-body-text.standard h4 {
     text-align: left;
-    margin: 0
+    margin: 0;
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
 }
 
 .body-text.standard h2,
@@ -4219,7 +4247,8 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
 }
 
 .article-cards .article-card.top-card .card-wrapper .card-headline {
-    font-family: "ivypresto-display";
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     color: #000;
     font-size: 32px;
     line-height: 36px;
@@ -4239,7 +4268,8 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
 }
 
 .article-cards .article-card.top-card .card-wrapper .card-dek {
-    font-family: "freight-text-pro";
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-size: 16px;
     line-height: 26.25px;
     letter-spacing: 0;
@@ -4327,7 +4357,8 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
 .article-cards .article-card.big-card .card-wrapper .card-headline {
     margin: 10px 0px;
     color: #000;
-    font-family: "ivypresto-display";
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     text-decoration: none;
     font-size: 18px;
     font-weight: 300;
@@ -4406,7 +4437,8 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
 
 .article-cards .article-card.small-card .card-wrapper .card-headline {
     color: #000;
-    font-family: 'freight-display-pro';
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     text-decoration: none;
     font-weight: 400;
     letter-spacing: 0px;
@@ -4517,7 +4549,8 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
 
 .article-cards .article-card.featured-card .card-wrapper .card-headline {
     color: #000000;
-    font-family: "ivypresto-display";
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0;
@@ -5238,7 +5271,8 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
 }
 
 .our-picks .story-text .story-text-title {
-    font-family: "ivypresto-display";
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-size: 22px;
     font-weight: 300;
     letter-spacing: 0;
@@ -5490,7 +5524,8 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
 .header .cat-links a {
     color: #000;
     text-decoration: none;
-    font-family: "poppins";
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-size: 11px;
     font-weight: 800;
     letter-spacing: 2.2px;
