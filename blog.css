@@ -53,7 +53,7 @@ p {
     font-style: normal;
 }
 
-#section-2,#section-3,#section-4,#section-5,#section-6 {
+#section-2, #section-3, #section-4, #section-5, #section-6 {
     font-family: "Rasa", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -81,7 +81,7 @@ p {
     font-style: normal;
 } */
 
-#section-7 { 
+#section-7 {
     font-family: "Rasa", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -91,7 +91,7 @@ p {
     /* border-bottom: groove; */
     width: fit-content;
     /* border-bottom-color: darkred; */
-} 
+}
 
 .social-share-buttons .social-sidebar.eop {
     display: flex;
@@ -283,6 +283,15 @@ p {
     color: darkred;
     margin-right: 0.25rem;
     /* background: brown; */
+}
+
+#pt-b {
+    width: 70%;
+    display: inline-block;
+    text-align: justify;
+    position: relative;
+    top: 15px;
+    max-width: max-content;
 }
 
 #pt-c {
