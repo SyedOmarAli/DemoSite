@@ -181,7 +181,7 @@ p {
     color: #000;
     line-height: 20px;
     font-size: 1.25rem;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 2.3px;
     text-decoration: none;
     background-size: 2px 2px;
@@ -230,11 +230,11 @@ p {
     text-align: justify;
     position: relative;
     top: 15px;
-    max-width: max-content;
+    max-width: 55%;
 }
 
 #pt-c {
-    width: 70%;
+    width: 55%;
     display: inline-block;
     text-align: justify;
 }
@@ -258,5 +258,5 @@ p {
     color: darkred;
     letter-spacing: 2px;
     font-size: 20px;
-    font-weight: 900;
+    font-weight: 500;
 }
