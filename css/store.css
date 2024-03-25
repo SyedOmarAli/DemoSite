@@ -31,7 +31,7 @@
     width: 100%;
     border-bottom: 1px solid darkred;
     /* overflow: hidden;*/
-} 
+}
 
 body {
     font-family: "Muli", sans-serif;
@@ -51,7 +51,8 @@ body {
 h1,
 h4,
 h5 {
-    font-family: "Muli", sans-serif;
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
     font-weight: 900;
     line-height: 1.4;
     color: #152035;
@@ -128,7 +129,6 @@ img {
 .link:hover,
 .link:active {
     color: #f9f9ff;
-    background-color: #152035;
 }
 
 .section {
@@ -228,12 +228,12 @@ ul {
 .faq-container {
     background-color: #ffffff;
     margin-bottom: 30px;
-    border: 1px solid var(--primary-color);
+    border: 1px solid darkred;
 }
 
 .faq-container .faq-header {
-    background: linear-gradient(45deg, #fff, var(--primary-color));
-    border-bottom: 1px solid var(--primary-color);
+    background: linear-gradient(45deg, #fff, darkred);
+    border-bottom: 1px solid darkred;
 }
 
 .faq-container .faq-header .faq-heading {
@@ -249,6 +249,71 @@ ul {
 
 .faq-container .faq-content hr {
     border-color: var(--primary-color);
+}
+
+.cpn-sort {
+    background-color: darkred;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.c-title > h5 > a > p {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 25px;
+    font-weight: 700;
+}
+
+.c-title > h5 > a {
+    text-decoration: none;
+    color: black;
+}
+
+.coupon-button > a {
+    text-decoration: none;
+    color: white;
+    background-color: darkred;
+}
+
+.cpnMeta {
+    gap: 10px;
+}
+
+.cpnTyp {
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.cpnBName {
+    font-weight: 100;
+    font-size: 18px;
+}
+
+.c-title > h5 > a:hover {
+    color: darkred;
+}
+
+h4 {
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder !important;
+    font-size: 30px !important;
+    font-style: normal;
+}
+
+h4 > p {
+    font-family: "Rasa", serif;
+    font-optical-sizing: auto;
+    font-weight: 600 !important;
+    font-size: 25px !important;
+    font-style: normal;
+}
+
+
+.str_link {
+    color: darkred;
 }
 
 @media only screen and (max-width: 1199.8px) and (min-width: 991px) {

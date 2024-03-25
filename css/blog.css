@@ -18,6 +18,14 @@ p {
     font-style: normal;
 }
 
+.btn__shop {
+    background-color: #000;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
 #section-2, #section-3, #section-4, #section-5, #section-6 {
     font-family: "Rasa", serif;
     font-optical-sizing: auto;
