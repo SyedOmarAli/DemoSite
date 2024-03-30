@@ -4,7 +4,168 @@ html {
 
 body {
     padding-top: 70px;
+    overflow: visible;
 }
+
+/*LAYOUT START */
+
+
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
+.container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.sidebar,
+.content {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    min-height: 500px;
+    margin: 20px;
+}
+
+.sidebar {
+    flex-grow: 1;
+    min-width: 300px;
+    margin-left: 105%;
+    margin-top: -535%;
+    width: 60%;
+    height: 1900px;
+    padding-left: 15px;
+    border-left: groove;
+}
+
+.story-text-byline {
+    display: flex;
+    gap: 5px;
+}
+
+.story-text-category {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: darkred;
+}
+
+.card-author-dot {
+    content: "|";
+    color: black;
+    background: black;
+    height: 13px;
+    width: 1px;
+}
+
+.story-text-sponsored {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: darkgray;
+}
+
+.popular-tags {
+    padding: 5rem 0;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 70%;
+}
+
+.tags>.tag {
+    background: darkred;
+    padding: .4rem 1rem;
+    border-radius: 3rem;
+    margin: .4rem .6rem;
+    color: antiquewhite;
+}
+
+.sidebar > .category > .ctg > h2 {
+    color: #000;
+    font-family: "Rasa", serif !important;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+}
+
+.popular-post > h2 {
+    color: #000;
+    font-family: "Rasa", serif !important;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+}
+
+.popular-tags > h2 {
+    color: #000;
+    font-family: "Rasa", serif !important;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 700;
+    width: 60%;
+    text-align: center;
+}
+
+
+.content {
+    flex-grow: 5;
+    min-width: 630px;
+}
+
+.post-image {
+    width: 40%;
+}
+
+.post-title {
+    color: #000;
+    font-family: "Rasa", serif !important;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+    width: 40%;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    text-align: left;
+    letter-spacing: 3px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.list-items {
+    background: darkred;
+    padding: .4rem 1rem;
+    margin: .8rem 0;
+    border-radius: 3rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-items>.software {
+    width: 93%;
+}
+
+.img {
+    width: 100%;
+}
+
+/* LAYOUT END */
 
 .sub-head {
     color: #000;
@@ -45,6 +206,84 @@ body {
 a:hover {
     fill: darkred;
 }
+
+.sidebar {
+    width: 60%;
+}
+
+/* .sidebar .category-list{
+    font-family: var(--Livvic);   
+}
+
+ .sidebar .category-list .list-items{
+    background: var(--sky);
+    padding: .4rem 1rem;
+    margin: .8rem 0;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .sidebar .category-list .list-items a{
+    color:  black;
+}
+
+ .sidebar .popular-post .post-content{
+    padding: 1rem 0;
+}
+
+ .sidebar .popular-post h2{
+    padding-top: 8rem;
+}
+
+.sidebar .popular-post .post-info{
+    padding: .4rem .1rem !important;
+    bottom: 0rem !important;
+    left: 1.5rem !important;
+    border-radius: 0rem !important;
+    background: white !important;
+}
+
+.sidebar .popular-post .post-title a{
+    font-size: 1rem;
+}
+
+ .sidebar .newsletter{
+    padding-top: 10rem;
+}
+
+ .sidebar .newsletter .form-element{
+    padding: .5rem 2rem;
+}
+
+ .sidebar .newsletter .input-element{
+    width: 80%;
+    height: 1.9rem;
+    padding: .3rem .5rem;
+    font-family: var(--Lexend);
+    font-size: 1rem;
+}
+
+ .sidebar .newsletter .form-btn{
+    border-radius: 0;
+    padding: .8rem 32%;
+    margin: 1rem 0;
+    background: var(--sky);
+}
+
+ .sidebar .popular-tags{
+    padding: 5rem 0;
+}
+
+ .sidebar .popular-tags .tags .tag{
+    background: var(--sky);
+    padding: .4rem 1rem;
+    border-radius: 3rem;
+    margin: .4rem .6rem;
+} */
+
+
 
 @media only screen and (max-width: 575px) {
     body {
@@ -3314,7 +3553,7 @@ figure.wp-block-pullquote blockquote cite {
     letter-spacing: 0;
     line-height: 15px;
     text-align: left;
-    -webkit-appearance: textfield;
+    /* -webkit-appearance: textfield; */
     padding: 0;
     outline: none;
     -webkit-font-smoothing: antialiased;
@@ -3400,7 +3639,7 @@ figure.wp-block-pullquote blockquote cite {
     height: 100%;
     background-color: transparent;
     text-align: left;
-    -webkit-appearance: textfield;
+    /* -webkit-appearance: textfield; */
     padding: 0;
     border: none;
     outline: none;
@@ -4139,7 +4378,8 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
         margin-top: 15px;
         font-size: 10.05px;
         letter-spacing: 1.66px;
-        line-height: 13px
+        line-height: 13px;
+        gap: 3px;
     }
 }
 
