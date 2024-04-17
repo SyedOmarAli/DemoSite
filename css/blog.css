@@ -63,23 +63,23 @@ p {
 }
 
 .social-share-buttons .social-sidebar .pinterest {
-    background-image: url(pinterest.png);
+    background-image: url(../images/pinterest.png);
 }
 
 .social-share-buttons .social-sidebar .facebook {
-    background-image: url(fb.png);
+    background-image: url(../images/fb.png);
 }
 
 .social-share-buttons .social-sidebar .twitter {
-    background-image: url(twitter.png);
+    background-image: url(../images/twitter.png);
 }
 
 .social-share-buttons .social-sidebar .instagram {
-    background-image: url(insta.png);
+    background-image: url(../images/insta.png);
 }
 
 .hr-div {
-    width: 50%;
+    width: auto;
     height: 2px;
     border: none;
     background-color: darkred;
@@ -98,6 +98,10 @@ p {
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+}
+
+.up-cont {
+    margin-left: 80px !important;
 }
 
 #title1-1:before {
