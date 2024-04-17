@@ -78,13 +78,11 @@ p {
     background-image: url(../images/insta.png);
 }
 
-.hr-div {
-    width: auto;
-    height: 2px;
-    border: none;
-    background-color: darkred;
-    margin: 0;
-    display: inline-block;
+.social-share-buttons {
+    box-sizing: border-box;
+    border-top: groove;
+    border-top-color: darkred;
+    border-top-width: thin
 }
 
 #title1-1 {
