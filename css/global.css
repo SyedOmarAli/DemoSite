@@ -295,7 +295,7 @@ header .serchBox .search-btn .close-icon {
 
 .footer .corp-links .corp-links-content {
     flex-basis: 50%;
-    width: 360px;
+    width: 390px;
 }
 
 .footer .corp-links-content-hed {
@@ -305,7 +305,7 @@ header .serchBox .search-btn .close-icon {
     font-optical-sizing: auto;
     font-size: 25px;
     font-weight: 700;
-    margin-left: -2px;
+    margin-left: -245px;
     font-weight: 900;
     line-height: 20px;
     color: #979797;
@@ -332,6 +332,7 @@ header .serchBox .search-btn .close-icon {
 
 .corp-links-content>ul {
     margin-left: -40px;
+    text-align: justify;
 }
 
 @media (min-width: 992px) {
