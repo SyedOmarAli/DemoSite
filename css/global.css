@@ -134,8 +134,11 @@ header .serchBox .search-btn .close-icon {
 }
 
 .footer {
-    /* width: 100%;
-    height: 70%; */
+    /* background-color: #f5f5f5; */
+    padding-top: 36px;
+    padding-bottom: 25px;
+    width: 100%;
+    margin: auto;
     box-sizing: border-box;
     border-top: 1px solid;
     border-top-color: darkred;
@@ -282,10 +285,110 @@ header .serchBox .search-btn .close-icon {
     font-size: 20px;
 }
 
+.footer .corp-links {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0 auto 38px;
+}
+
+.footer .corp-links .corp-links-content {
+    flex-basis: 50%;
+    width: 360px;
+}
+
+.footer .corp-links-content-hed {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: "Rasa", serif !important;
+    font-optical-sizing: auto;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: -2px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #979797;
+    letter-spacing: 2px;
+    line-height: 19px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.footer .corp-links .corp-links-content {
+    flex-basis: 50%;
+    width: 360px;
+}
+
+.icon-instagram:before {
+    content: "\e624";
+}
+
+.footer .socials .social.icon-instagram {
+    font-size: 19px;
+    margin-right: 32px;
+    padding-top: 1px;
+}
+
+.corp-links-content>ul {
+    margin-left: -40px;
+}
+
+@media (min-width: 992px) {
+    .footer .footer-contents .footer-content:nth-child(3) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer .socials {
+        margin-bottom: 40px;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer .socials .social.icon-instagram {
+        margin-right: 26.5px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer .corp-links .corp-link {
+        display: block;
+        font-family: "Rasa", serif !important;
+        font-optical-sizing: auto;
+        font-size: 20px;
+        font-weight: 700;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 27px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer .footer-contents {
+        display: flex;
+        justify-content: flex-start;
+        max-width: 86%;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer .footer-contents .footer-content {
+        flex-basis: 22%;
+    }
+}
+
+
 @media (max-width: 1023px) {
     .header-default .header__nav {
         display: none;
     }
+
     .serchBox {
         display: none;
     }

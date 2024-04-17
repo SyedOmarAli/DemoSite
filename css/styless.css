@@ -17,7 +17,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-columns: 70% 30%;
+    /* grid-template-columns: 70% 30%; */
 }
 
 .sidebar,
@@ -49,7 +49,6 @@ body {
     text-transform: uppercase;
     font-size: 12px;
     letter-spacing: 3px;
-    color: darkred;
 }
 
 .card-author-dot {
@@ -126,6 +125,10 @@ body {
     width: 40%;
 }
 
+.story-text {
+    padding-top: 10px;
+}
+
 .post-title {
     color: #000;
     font-family: "Rasa", serif !important;
@@ -141,6 +144,9 @@ body {
     letter-spacing: 3px;
 }
 
+.list-items > a {
+    color: antiquewhite;
+}
 
 a {
     text-decoration: none;
@@ -149,6 +155,7 @@ a {
 
 .list-items {
     background: darkred;
+    color: antiquewhite;
     padding: .4rem 1rem;
     margin: .8rem 0;
     border-radius: 3rem;
