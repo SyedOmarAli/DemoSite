@@ -2920,7 +2920,8 @@ p:empty {
 
 .body-text p.related-story-link a,
 .amazon-body-text p.related-story-link a {
-    color: #f27676;
+    /* color: #f27676; */
+    color: darkred;
     text-decoration: none;
     font-family: "poppins";
     font-size: 12px;
