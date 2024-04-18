@@ -2562,7 +2562,7 @@ p:empty {
     font-size: 17px;
     line-height: 26px;
     font-weight: 400;
-    width: 90%;
+    width: 86%;
     margin: auto;
     -webkit-font-smoothing: antialiased
 }
@@ -2624,7 +2624,7 @@ p:empty {
 }
 
 .module:has(.body-text), .module:has(.amazon-body-text) {
-    margin: -80px auto 10px;
+    margin: -40px auto 10px;
 }
 
 

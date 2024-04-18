@@ -33,7 +33,7 @@ p {
 #section-2, #section-3, #section-4, #section-5, #section-6 {
     font-family: 'ivypresto-display';
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 25px;
     font-style: normal;
 }
@@ -41,7 +41,7 @@ p {
 #section-7 {
     font-family: 'ivypresto-display';
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-size: 25px;
     width: fit-content;
@@ -280,4 +280,5 @@ p {
     letter-spacing: 2px;
     font-size: 20px;
     font-weight: 500;
+    padding-top: 30px;
 }
