@@ -1,9 +1,10 @@
 p {
-    font-family: "Rasa", serif;
+    font-family: 'freight-text-pro';
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     font-size: 22px;
+    letter-spacing: 2px;
 }
 
 .post-content>h3 {
@@ -94,7 +95,7 @@ p {
     margin-top: 80px;
     z-index: 0;
     text-align: center;
-    font-family: Circular Std;
+    font-family: 'freight-text-pro';
     font-size: 20px;
     font-weight: 900;
     text-transform: uppercase;
@@ -199,7 +200,7 @@ p {
     color: #000;
     line-height: 1.5rem;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 200;
     letter-spacing: .3px;
     text-decoration: none;
     background-size: 2px 2px;
@@ -230,14 +231,14 @@ p {
 /* .quick-links-container>ul>li {
     margin-top: 5px;
     /* background-color: indianred; */
-    /* width: fit-content; */
-/* } */ */
-
+/* width: fit-content; */
+/* } */
+*/
 /* .quick-links-container>ul>li>.ql-count {
     font-size: 1.25rem;
     color: darkred;
     margin-right: 0.25rem; */
-    /* background: brown; */
+/* background: brown; */
 /* } */
 
 #pt-b {

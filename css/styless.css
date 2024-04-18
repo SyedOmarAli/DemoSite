@@ -2562,7 +2562,7 @@ p:empty {
     font-size: 17px;
     line-height: 26px;
     font-weight: 400;
-    width: 77%;
+    width: 86%;
     margin: auto;
     -webkit-font-smoothing: antialiased
 }
@@ -2636,7 +2636,7 @@ p:empty {
 .amazon-body-text.standard h4 {
     text-align: left;
     margin: 0;
-    font-family: "Rasa", serif;
+    font-family: '';
     font-optical-sizing: auto;
 }
 
@@ -2740,7 +2740,7 @@ p:empty {
 
 .body-text h3,
 .amazon-body-text h3 {
-    font-family: "poppins";
+    font-family: "ivypresto-display";
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
@@ -3297,7 +3297,7 @@ div.large-product-container .related-story-link-container {
 }
 
 .related-story-link-container .related-header strong {
-    font-family: "poppins";
+    font-family: "ivypresto-display";
     font-weight: 600;
     font-size: 12px;
     line-height: 15px;
@@ -3556,7 +3556,7 @@ figure.wp-block-pullquote blockquote cite {
     border: none;
     color: #979797;
     background-color: transparent;
-    font-family: "poppins";
+    font-family: "ivypresto-display";
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 0;
@@ -3652,7 +3652,7 @@ figure.wp-block-pullquote blockquote cite {
     padding: 0;
     border: none;
     outline: none;
-    font-family: "poppins";
+    font-family: "ivypresto-display";
     font-size: 12px;
     font-weight: 300;
     letter-spacing: 0;
@@ -4292,7 +4292,7 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
 .article-cards .article-card .card-img-container .sponsored-txt {
     position: absolute;
     right: 4px;
-    font-family: "brandon-grotesque";
+    font-family: "ivypresto-display";
     font-weight: 600;
     letter-spacing: 1px;
     line-height: 1;
@@ -4312,7 +4312,7 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
     padding-right: 30px;
     padding-bottom: 5px;
     color: #8A8A8E;
-    font-family: "brandon-grotesque";
+    font-family: "ivypresto-display";
     font-size: 16px;
     line-height: 1;
     text-align: center
@@ -4520,7 +4520,7 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
 }
 
 .article-cards .article-card.top-card .card-wrapper .card-dek {
-    font-family: "Rasa", serif;
+    font-family: 'ivypresto-display';
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 26.25px;
@@ -4801,7 +4801,7 @@ div.recirculation .article-cards .article-card .card-img-container .card-img.hov
 
 .article-cards .article-card.featured-card .card-wrapper .card-headline {
     color: #000000;
-    font-family: "Rasa", serif;
+    font-family: 'ivypresto-display';
     font-optical-sizing: auto;
     font-size: 18px;
     font-weight: 300;
