@@ -198,7 +198,7 @@ p {
 .quick-links-container>ul>li>a {
     color: #000;
     line-height: 1.5rem;
-    font-size: .98rem;
+    font-size: 20px;
     font-weight: 500;
     letter-spacing: .3px;
     text-decoration: none;
