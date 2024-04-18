@@ -85,7 +85,7 @@ body {
     color: antiquewhite;
 }
 
-.sidebar > .category > .ctg > h2 {
+.sidebar>.category>.ctg>h2 {
     color: #000;
     font-family: "Rasa", serif !important;
     font-optical-sizing: auto;
@@ -95,7 +95,7 @@ body {
     text-align: center;
 }
 
-.popular-post > h2 {
+.popular-post>h2 {
     color: #000;
     font-family: "Rasa", serif !important;
     font-optical-sizing: auto;
@@ -105,7 +105,7 @@ body {
     text-align: center;
 }
 
-.popular-tags > h2 {
+.popular-tags>h2 {
     color: #000;
     font-family: "Rasa", serif !important;
     font-optical-sizing: auto;
@@ -144,7 +144,7 @@ body {
     letter-spacing: 3px;
 }
 
-.list-items > a {
+.list-items>a {
     color: antiquewhite;
 }
 
@@ -1544,6 +1544,15 @@ a:hover {
 }
 
 @media (min-width: 991px) {
+    .body-text, .amazon-body-text {
+        font-size: 18px !important;
+        line-height: 26.5px !important;
+        max-width: 950px !important;
+    }
+}
+
+
+@media (min-width: 991px) {
     .large-content-container.side-left .image-text-wrapper .body-text .wp-block-button__link {
         font-size: 13px;
         line-height: 15px;
@@ -2553,7 +2562,7 @@ p:empty {
     font-size: 17px;
     line-height: 26px;
     font-weight: 400;
-    width: 86%;
+    width: 90%;
     margin: auto;
     -webkit-font-smoothing: antialiased
 }
@@ -2615,7 +2624,7 @@ p:empty {
 }
 
 .module:has(.body-text), .module:has(.amazon-body-text) {
-    margin: 0 auto 10px;
+    margin: -80px auto 10px;
 }
 
 
@@ -2937,13 +2946,6 @@ p:empty {
 }
 
 @media (min-width: 991px) {
-
-    .body-text,
-    .amazon-body-text {
-        font-size: 18px;
-        line-height: 26.5px;
-        max-width: 680px
-    }
 
     .body-text.module-subhed,
     .amazon-body-text.module-subhed {
