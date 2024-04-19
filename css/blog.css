@@ -216,7 +216,7 @@ p {
 .quick-links-container {
     height: 275px;
     width: 55%;
-    display: inline-block;
+    margin: auto;
 }
 
 /* .quick-links-container>ul {
@@ -251,9 +251,16 @@ p {
 }
 
 #pt-c {
-    width: 56%;
-    display: inline-block;
+    width: 55%;
+    margin: auto;
     text-align: justify;
+}
+
+.related-story-link {
+    text-align: justify;
+}
+.related-story-link > a {
+    color: darkred;
 }
 
 .cat__link {

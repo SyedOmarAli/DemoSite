@@ -1547,7 +1547,7 @@ a:hover {
     .body-text, .amazon-body-text {
         font-size: 18px !important;
         line-height: 26.5px !important;
-        max-width: 950px !important;
+        /* max-width: 950px !important; */
     }
 }
 
@@ -2562,7 +2562,7 @@ p:empty {
     font-size: 17px;
     line-height: 26px;
     font-weight: 400;
-    width: 86%;
+    width: 55%;
     margin: auto;
     -webkit-font-smoothing: antialiased
 }
@@ -3262,9 +3262,9 @@ div.large-product-container .related-story-link-container {
 
 @media (min-width: 991px) {
     .related-story-link-container {
-        width: 680px;
+        width: 55%;
         padding: 0;
-        margin: 24px auto
+        margin: auto;
     }
 }
 
