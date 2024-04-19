@@ -257,9 +257,12 @@ p {
 }
 
 .related-story-link {
+    margin-top: 1px !important;
+    margin-bottom: -4px !important;
     text-align: justify;
 }
-.related-story-link > a {
+
+.related-story-link>a {
     color: darkred;
 }
 
