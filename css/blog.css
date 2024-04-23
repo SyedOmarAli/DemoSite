@@ -293,3 +293,31 @@ p {
     font-weight: 500;
     padding-top: 30px;
 }
+
+
+.header-scrolling-article-hed {
+    margin-left: 10px;
+    font-family: "freight-text-pro";
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 22px;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.tg-social-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle-social-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.toggle-social-links>li>a>img {
+    width: 20px;
+}
