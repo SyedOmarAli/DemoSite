@@ -297,19 +297,20 @@ p {
 
 .header-scrolling-article-hed {
     margin-left: 10px;
-    font-family: "freight-text-pro";
+    /* font-family: "freight-text-pro"; */
+    font-family: 'ivypresto-display';
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0;
     line-height: 22px;
     color: #000;
+    padding-bottom: 15px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .tg-social-links {
-    display: flex;
-    justify-content: space-between;
+    margin-top: -7px;
 }
 
 .toggle-social-links {
