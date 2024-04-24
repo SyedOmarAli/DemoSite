@@ -85,7 +85,7 @@
     }
 }
 
-/* body {
+body {
     margin: 0;
     font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);
@@ -96,7 +96,7 @@
     background-color: var(--bs-body-bg);
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent
-} */
+}
 
 hr {
     margin: 1rem 0;
@@ -161,10 +161,10 @@ hr {
     font-size: 1rem
 }
 
-/* p {
+p {
     margin-top: 0;
     margin-bottom: 1rem
-} */
+}
 
 abbr[title] {
     -webkit-text-decoration: underline dotted;
@@ -180,7 +180,7 @@ address {
     line-height: inherit
 }
 
-/* ol, ul {
+ol, ul {
     padding-left: 2rem
 }
 
@@ -191,7 +191,7 @@ dl, ol, ul {
 
 ol ol, ol ul, ul ol, ul ul {
     margin-bottom: 0
-} */
+}
 
 dt {
     font-weight: 700
@@ -235,12 +235,12 @@ sup {
 }
 
 a {
-    color: black;
-    text-decoration: none;
+    color: var(--bs-link-color);
+    text-decoration: underline
 }
 
 a:hover {
-    color: darkred;
+    color: var(--bs-link-hover-color)
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -360,9 +360,7 @@ select:disabled {
     display: none !important
 }
 
-/* [type=button], [type=reset], [type=submit], button {
-    -webkit-appearance: button
-} */
+
 
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer
@@ -411,10 +409,9 @@ legend+* {
     height: auto
 }
 
-/* [type=search] {
+[type=search] {
     outline-offset: -2px;
-    -webkit-appearance: textfield
-} */
+}
 
 ::-webkit-search-decoration {
     -webkit-appearance: none
@@ -429,10 +426,9 @@ legend+* {
     -webkit-appearance: button
 }
 
-/* ::file-selector-button {
+::file-selector-button {
     font: inherit;
-    -webkit-appearance: button
-} */
+}
 
 output {
     display: inline-block
@@ -2446,7 +2442,6 @@ textarea.form-control-lg {
     -moz-appearance: none;
     appearance: none;
     -webkit-print-color-adjust: exact;
-    /* color-adjust: exact; */
     print-color-adjust: exact
 }
 
@@ -8087,11 +8082,11 @@ textarea.form-control-lg {
 }
 
 .order-0 {
-    order: 0 
+    order: 0;
 }
 
 .order-1 {
-    order: 0 !important;
+    order: 0; 
 }
 
 .order-2 {
@@ -8390,7 +8385,7 @@ textarea.form-control-lg {
 
 .py-2 {
     padding-top: .5rem !important;
-    padding-bottom: 3.5rem !important
+    padding-bottom: .5rem !important
 }
 
 .py-3 {
@@ -8605,7 +8600,7 @@ textarea.form-control-lg {
 }
 
 .text-start {
-    text-align: center !important;
+    text-align: left !important
 }
 
 .text-end {

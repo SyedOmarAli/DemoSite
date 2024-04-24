@@ -209,6 +209,7 @@ ul {
 
 .coupons-list {
     list-style: none !important;
+    width: fit-content;
 }
 
 .offer-box .reveal-coupon {
@@ -261,7 +262,7 @@ ul {
     text-decoration: none;
     display: inline-block;
     padding-top: 25px;
-    font-weight: 700;
+    font-weight: 100;
 }
 
 .c-title>h5>a {
@@ -396,13 +397,17 @@ h4>p {
 
     .details-box p {
         max-width: 150px !important;
-        font-size: 12px !important;
+        font-size: 18px !important;
     }
 
     .ftrBtns a {
         padding: 10px !important;
         text-align: center !important;
     }
+}
+
+.coupon-list > li {
+    width: fit-content;
 }
 
 @media only screen and (max-width: 351px) {
@@ -478,3 +483,22 @@ h4>p {
     border-radius: .375rem;
 }
 
+/* @media screen and (width: 265px) {
+    .d-lg-none {
+        position: relative !important;
+        top: -1311px !important;
+    }
+
+    .order-lg-0 {
+        position: relative !important;
+        top: 229px !important;
+    }
+
+    .order-1 {
+        order: 0 !important;
+    }
+
+    .order-0 {
+        order: 0 !important;
+    }
+} */

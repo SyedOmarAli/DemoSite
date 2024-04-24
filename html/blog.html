@@ -39,6 +39,17 @@
 
 <body>
 
+    <div class="loading-screen">
+        <i class="fas fa-heart" aria-hidden="true"></i>
+    </div>
+
+    <script>
+        // JavaScript to hide the loading screen once the page is loaded
+        window.addEventListener("load", function () {
+            document.querySelector(".loading-screen").style.display = "none";
+        });
+    </script>
+
     <div class="content">
         <div class="header header-default py-2">
             <nav class="shell">
@@ -124,7 +135,7 @@
                                 </li>
                             </ul>
                         </div>
-                        
+
                     </div>
 
                     <div class="serchBox">
