@@ -2624,7 +2624,7 @@ p:empty {
 }
 
 .module:has(.body-text), .module:has(.amazon-body-text) {
-    margin: -40px auto 10px;
+    margin: 15px auto 10px;
 }
 
 

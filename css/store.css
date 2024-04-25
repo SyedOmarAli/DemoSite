@@ -416,6 +416,11 @@ h4>p {
     }
 }
 
+.input-group {
+    margin-left: -28px;
+
+}
+
 .open-popup2 {
     visibility: visible;
     top: 40%;
@@ -423,7 +428,7 @@ h4>p {
 }
 
 .popup2 {
-    width: 600px;
+    width: fit-content;
     background: #d9e1e2;
     border-radius: 6px;
     position: fixed;

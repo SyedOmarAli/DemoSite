@@ -214,7 +214,7 @@ p {
 
 
 .quick-links-container {
-    height: 275px;
+    height: fit-content;
     width: 55%;
     margin: auto;
 }
@@ -322,3 +322,4 @@ p {
 .toggle-social-links>li>a>img {
     width: 20px;
 }
+
