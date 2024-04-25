@@ -4,6 +4,7 @@ p {
     font-weight: 200;
     font-style: normal;
     font-size: 20px;
+    line-height: 30px;
     /* letter-spacing: 2px; */
 }
 
@@ -253,7 +254,7 @@ p {
 #pt-c {
     width: 55%;
     margin: auto;
-    text-align: justify;
+    text-align: left;
 }
 
 .related-story-link {
