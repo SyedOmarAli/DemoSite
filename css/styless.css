@@ -1546,7 +1546,7 @@ a:hover {
 @media (min-width: 991px) {
     .body-text, .amazon-body-text {
         font-size: 18px !important;
-        line-height: 26.5px !important;
+        /* line-height: 26.5px !important; */
         /* max-width: 950px !important; */
     }
 }
@@ -2406,12 +2406,12 @@ a:hover {
 .large-product-container .image-text-wrapper .product-data .sub-head-wrapper .body-text,
 .amazon-product-module-container .image-text-wrapper .product-data .sub-head-wrapper .body-text {
     color: #000000;
-    font-family: "poppins";
+    font-family: 'ivypresto-display';
     text-align: center;
     font-size: 12px;
     font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 13px
+    /* letter-spacing: 1px; */
+    /* line-height: 13px */
 }
 
 .large-product-container .image-text-wrapper .product-data .sub-head-wrapper .body-text .old-price span,
@@ -2424,7 +2424,7 @@ a:hover {
     font-size: 18px;
     font-weight: 300;
     letter-spacing: 0;
-    line-height: 28px;
+    /* line-height: 28px; */
     width: 100%;
     padding-bottom: 0px
 }
@@ -2558,7 +2558,7 @@ p:empty {
 .body-text,
 .amazon-body-text {
     color: #000;
-    font-family: "freight-text-pro";
+    font-family: 'ivypresto-display' !important;
     font-size: 17px;
     line-height: 26px;
     font-weight: 400;
