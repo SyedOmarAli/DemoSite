@@ -1,3 +1,7 @@
+:root {
+  --primary-color: darkred;
+}
+
 .serchBox input {
   border: 1px solid #f1f1f1;
   font-size: 15px;
@@ -169,11 +173,15 @@ header .serchBox .search-btn .close-icon {
   text-align: center;
 }
 
+.footer .footer-content .corp-links ul > li {
+  margin: 0.4rem;
+}
+
 .shell {
   max-width: 1300px;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px 20px;
+  padding: 10px 20px 0;
 }
 
 .shell--s .shell {
@@ -396,7 +404,7 @@ header .serchBox .search-btn .close-icon {
     justify-content: center;
     text-align: center;
     position: fixed;
-    top: calc(100px + var(--admin-bar--height));
+    top: calc(100px + var(--admin-bar--height, 0));
     font-family: "Commuters Sans", sans-serif;
     left: 0;
     width: 100%;
@@ -618,9 +626,10 @@ header .serchBox .search-btn .close-icon {
 
 .header-default {
   position: sticky !important;
-  top: var(--admin-bar--height);
+  top: var(--admin-bar--height, 0);
   left: 0;
   width: 100%;
+  height: auto;
   padding: 0;
   background-color: #fff;
   border-bottom: 1px solid var(--primary-color);
