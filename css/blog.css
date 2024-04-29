@@ -203,16 +203,17 @@ p {
 
 .quick-links-container > ul > li > a {
   color: #000;
-  /* line-height: 1.5rem; */
   font-size: 20px;
   font-weight: 200;
   /* letter-spacing: .3px; */
-  text-decoration: none;
+  text-decoration: none !important;
   background-size: 2px 2px;
   background-repeat: repeat-x;
   background-position: 0 100%;
   background-image: linear-gradient(var(--primary-color), darkred);
   text-decoration: underline;
+  line-height: 1.8rem;
+  text-underline-offset: 4px;
 }
 
 .quick-links-container {
@@ -253,7 +254,7 @@ p {
 }
 
 #pt-c {
-  width: 55%;
+  width: 60%;
   margin: auto;
   text-align: left;
 }
@@ -322,4 +323,18 @@ p {
 
 .toggle-social-links > li > a > img {
   width: 20px;
+}
+
+@media screen and (max-width: 976px) {
+  #pt-c,
+  #pt-b,
+  #quick-links-container {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-image-container .hero-image {
+    width: 90%;
+  }
 }

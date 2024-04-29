@@ -8,6 +8,7 @@ function showNavBar() {
   navDefaultMobile.style.width = "100%";
   navDefaultMobile.style.bottom = "0";
   navDefaultMobile.style.top = "25px";
+  navDefault.style.display = "none";
 }
 
 function closeFunc() {
